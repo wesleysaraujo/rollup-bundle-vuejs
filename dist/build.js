@@ -11634,7 +11634,9 @@
 	  var _vm = this;
 	  var _h = _vm.$createElement;
 	  var _c = _vm._self._c || _h;
-	  return _c("div", [_vm._v("\n  " + _vm._s(_vm.msg) + "\n")])
+	  return _c("div", { staticClass: "container-msg" }, [
+	    _vm._v("\n  " + _vm._s(_vm.msg) + "\n")
+	  ])
 	};
 	var __vue_staticRenderFns__$1 = [];
 	__vue_render__$1._withStripped = true;
@@ -11645,7 +11647,7 @@
 	/* style */
 	var __vue_inject_styles__$1 = function (inject) {
 	  if (!inject) { return }
-	  inject("data-v-4cea6652_0", { source: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", map: undefined, media: undefined });
+	  inject("data-v-6a08c9aa_0", { source: "\n.container-msg{\n  background: #0988a0;\n  padding: 10px;\n  color: #ffffff;\n}\n", map: undefined, media: undefined });
 
 	};
 	/* scoped */
